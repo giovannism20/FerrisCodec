@@ -1,0 +1,15 @@
+[package]
+name = "ferris-cli"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+ferris-core = { path = "../ferris-core" }
+ferris-io = { path = "../ferris-io" }
+ferris-codec = { path = "../ferris-codec" }
+ferris-format = { path = "../ferris-format" }
+ferris-filter = { path = "../ferris-filter" }
+
+[[bin]]
+name = "ferris"
+path = "src/main.rs"

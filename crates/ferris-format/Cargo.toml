@@ -1,0 +1,11 @@
+[package]
+name = "ferris-format"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+ferris-core = { path = "../ferris-core" }
+ferris-io = { path = "../ferris-io" }
+
+[lib]
+path = "src/lib.rs"
